@@ -1,0 +1,23 @@
+*{ margin: 0; padding: 0 }
+input{outline: none;}
+
+a:link,a:visited{color:#444;text-decoration:none;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{
+    font-style:normal;
+ }
+.cf:after{content:"";clear:both;visibility: hidden;display:block;}
+body{
+    font-size:14px;
+}
+.ff:after{
+    content:"";
+    clear:both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+}
+em,b,strong{
+    text-decoration: none;
+}
+img{vertical-align:top;border:0;}

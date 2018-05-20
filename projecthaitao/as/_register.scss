@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+//zhuce
+.register-inner {
+   @extend .login-inner;
+}
+
+.close{
+    position:absolute;
+    right:10px;
+    top:0px;
+}
+.register-inner li {
+    width:100%;
+    position: relative;
+    height:53px;
+    margin-bottom:30px;
+    border:1px solid #ccc;
+}
+.register-inner h2 {
+    margin-bottom: 31px;
+    text-align: center;
+}
+.register-inner h2 span {
+    display: inline-block;
+    font-size: 16px;
+    color: #DD3E42;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DD3E42;
+}
+.text1-error {
+    background: #fff;
+    position: absolute;
+    margin-top:43px;
+    margin-left:12px;
+     color:#000000;
+}
+
+.inp1{
+    vertical-align: middle;
+    padding: 6px 0 10px 10px;
+    width:260px;
+    border:0px;
+    color: #999;
+}
+
